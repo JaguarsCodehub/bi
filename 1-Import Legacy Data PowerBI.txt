@@ -1,0 +1,34 @@
+A) Downloading excel file
+➢ To download excel file click on the link -
+https://www.google.com/search?q=product.xlsx&oq=product.xlsx&aqs=chrome..69i5
+7j0i8i30j0i8i10i30i625j0i8i10i15i30i625.767j0j7&sourceid=chrome&ie=UTF-8
+
+To import file, we can directly click on the “import data from excel” option.
+
+Also, data can be imported by selecting – “Get data” from “HOME” ribbon :
+Go to “get data” → select “Excel Workbook” and click on “connect”.
+
+Select the downloaded file and click on “open”
+
+Select “products” and click on “load”
+
+From left side, select “data” to display data in tabular format.
+
+Similarly, select “Model” to display in a mathematical format.
+
+B) Importing O-Data File
+
+Data can be imported by selecting – get data from “HOME” ribbon :
+Go to “get data” → select “OData feed” and click on “connect”.
+
+Now, enter the following URL
+“http://services.odata.org/V3/Northwind/Northwind.svc/” and click on “OK”
+
+Select “Orders” and click on “Load”
+
+From left side, select “data” to display data in tabular format.
+
+Similarly, select “Model” to display in a mathematical format.
+
+Since, we have loaded the data under same files, we can view it simultaneously
+

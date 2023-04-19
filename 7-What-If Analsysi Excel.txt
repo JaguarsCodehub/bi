@@ -1,0 +1,23 @@
+
+A book store and have 100 books in storage. You sell a certain % for the highest price of $50
+and a certain % for the lower price of $20.
+
+
+If you sell 60% for the highest price, cell D10 calculates a total profit of 60 * $50 + 40 * $20
+= $3800.
+
+1. On the Data tab, in the Forecast group, click What-If Analysis
+2. Click Scenario Manager.
+The Scenario Manager dialog box appears.
+3. Add a scenario by clicking on Add.
+Type a name (60% highest), select cell C4 (% sold for the highest price) for the
+Changing cells and Click on OK.
+4. Type a name (60% highest), select cell C4 (% sold for the highest price) for the
+Changing cells and Click on OK
+5. Enter the corresponding value 0.6 and click on OK again.
+6. 60% highest will be added to the Dialog box
+7. Type one more name (70% highest), select cell C4 (% sold for the highest price) for the
+Changing cells and Click on OK.
+8. Enter the corresponding value 0.7 and click on OK.
+9. Next, add 3 other scenarios (80%, 90%, 100%)
+Finally, your Scenario Manager should be consistent with the picture below:

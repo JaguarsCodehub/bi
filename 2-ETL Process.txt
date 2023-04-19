@@ -1,0 +1,71 @@
+A) Removing other columns to only display columns of interest:–
+
+Select “Transform data” from “Table tools” ribbon
+
+➢ Press “CTRL” key and select the columns of interest (ProductID, ProductName,
+QuantityPerUnit, UnitInStock)
+➢ From the “Home” ribbon → Select “Remove Columns” → Click on “Remove Other
+Columns”
+
+B) Change the data type of the UnitInStock column:
+
+Select “UnitInStock” column
+Select “Whole Number” from the “Data Type” panel which is in “Transform” ribbon
+
+Applying the necessity changes by selecting “Close & Apply” option from “Home”
+ribbon.
+
+C) Expand the Order_Details table
+
+#In this step, you expand the Order_Details table that is related to the Orders table,
+to combine the other tables
+
+From the “Home” ribbon, select “Transform data” option
+
+From the columns displayed → go to Order_Details → click on the “expand” icon
+beside it → select the column of interest (ProductID, UnitPrice, Quantity) → click on
+“OK”
+
+All the columns will be displayed
+
+D) Calculate the line total for each Order_Details row
+
+From the “Add column” ribbon, select “Custom Column”.
+
+Change the New column name as “Line Total”.
+For formula, select “Order_Details.UnitPrice” from available columns list and click on
+“insert”. Insert an “asterisk (*)”. Select “Order_Details.Quantity” from available
+columns list and click on “insert”.
+Select “OK”
+
+“Line total” column will be displayed.
+
+
+E) Rename and reorder columns in the query
+
+Drag “Line Total” column towards the left side to reorder the data.
+
+Rename Order_Details columns by removing the prefix – Order_Details from their
+heading i.e., changing Order_Details.ProductID to ProductID,
+Order_Details.UnitPrice to UnitPrice and Order_Details.Quantity to Quantity.
+
+Applying the necessity changes by selecting “Close & Apply” option from “Home”
+ribbon
+
+
+F) Combine the Products and Total Sales queries
+
+Select “Manage Relationships” from the “Home” ribbon.
+
+As displayed a relationship is created by default between “Orders and Products”.
+To create a relation between two data, click on “New”
+
+Select “Products” in from table and “Orders” in to table.
+Here, the relationship is already created by default so we cannot create the same
+relationship.
+
+From the left panel, select “Model”
+Here, you can view the relationship created
+
+When you click on relationship, you can view that “ProductID” is in common to create
+this relationship model.
